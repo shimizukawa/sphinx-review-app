@@ -1,2 +1,2 @@
-web: gunicorn sphinxweb:app --log-file -
+web: sphinxweb-build; gunicorn sphinxweb:app --log-file -
 
